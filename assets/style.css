@@ -291,3 +291,43 @@ a.btn:nth-child(2)::before{
     z-index: -1;
     top: 10%;
 }
+
+.liquid-shape:nth-child(2){
+    filter: blur(50);
+}
+
+/* About Section css ---------------------------------------------*/
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2em;
+    background: var(--secon-bg-color);
+}
+
+.about .img-about{
+    text-align: center;
+    position: relative;
+}
+
+.about .img-about img{
+    max-width: 400px;
+    height: auto;
+
+}
+
+.about-content span{
+    color: #fdfdfd;
+    font-size: 8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.about-content h2{
+    color: var(--hover-color);
+    font-weight: 700;
+    font-size: var(--normal-font);
+}
+
