@@ -157,7 +157,7 @@ section{
 }
 
 .info-box span{
-    font-size: .9rem;
+    font-size: .8rem;
     color: #dbdbdb
 }
 
@@ -281,5 +281,13 @@ a.btn:nth-child(2)::before{
 .img-box img{
     width: 100%;
     max-width: 350px;
-    height: auto;  
+    height: auto;
+}
+
+.liquid-shape{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 10%;
 }
