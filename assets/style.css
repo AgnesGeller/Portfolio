@@ -398,7 +398,7 @@ a.btn:nth-child(2)::before{
 
 .main-text span{
     color: #fdfdfd;
-    font-size: 8rem;
+    font-size: .8rem;
     font-weight: 200;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -419,7 +419,7 @@ a.btn:nth-child(2)::before{
     background: var(--secon-bg-color);
     transition: transform .4s;
     border-radius: 10px;
-    
+
 }
 
 
