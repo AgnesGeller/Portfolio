@@ -284,6 +284,17 @@ a.btn:nth-child(2)::before{
     height: auto;
 }
 
+img{
+    border-radius: 150px;
+    box-shadow: var(--neon-box-shadow);
+    border: 10px solid var(--hover-color);
+    outline: 2px solid var(--bg-color);
+    z-index: 100;
+    animation: morph 6s linear infinite;
+    
+}
+
+
 .liquid-shape{
     position: absolute;
     width: 100%;
@@ -362,12 +373,12 @@ a.btn:nth-child(2)::before{
 }
 
 .info-about1{
-    left: 10%;
+    left: -20%;
     top: 34%;
 }
 
 .info-about2{
-    left: 66%;
+    left: 70%;
     top: 15%;
 }
 
