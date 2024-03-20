@@ -576,8 +576,9 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #fff;
+    
 }
+
 
 .circle .points{
     width: 2px;
@@ -586,6 +587,7 @@ img{
     position: absolute;
     border-radius: 3px;
     transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
+}                         
    
 
 .points.marked{
@@ -593,7 +595,6 @@ img{
     animation-delay: cals(var(--i)*0.05s);
     animation: glow 0.04s linear forwards;
     animation-delay: calc(var(--i))*0.05s;
-}
 }
 
 
