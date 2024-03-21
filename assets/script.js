@@ -59,3 +59,6 @@ let words = document.querySelectorAll(".word");
     }
     })
 
+
+    // mix it up portfolio section
+    var mixer = mixitup('.portfolio-gallery');
