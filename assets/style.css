@@ -284,15 +284,7 @@ a.btn:nth-child(2)::before{
     height: auto;
 }
 
-img{
-    border-radius: 150px;
-    box-shadow: var(--neon-box-shadow);
-    border: 5px solid var(--hover-color);
-    
-    z-index: 80;
-    animation: morph 6s linear infinite;
-    
-}
+
 
 
 .liquid-shape{
@@ -325,7 +317,6 @@ img{
 .about .img-about img{
     max-width: 400px;
     height: auto;
-
 }
 
 .about-content span{
@@ -373,12 +364,12 @@ img{
 }
 
 .info-about1{
-    left: -20%;
+    left: 10%;
     top: 34%;
 }
 
 .info-about2{
-    left: 70%;
+    left: 66%;
     top: 15%;
 }
 
@@ -594,6 +585,116 @@ img{
     animation: glow 0.04s linear forwards;
     animation-delay: calc(var(--i)*0.05s);
 }
+
+/* Portfolio section css ---------------------------*/
+
+.fillter-buttons{
+    margin: 2rem;
+    text-align: center;
+}
+
+.fillter-buttons .btn{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: .85rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    margin-left: 1.3rem;
+    color: var(--text-color);
+}
+
+.fillter-buttons .btn:hover{
+    color: var(--hover-color);
+}
+
+.portfolio-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(270px, 1fr));
+    gap: 2rem;
+}
+
+.port-box{
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #292e33;
+    display: flex;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    border: 2px solid var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+}
+
+.port-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width:  100%;
+}
+
+.port-image img{
+    width: 100%;
+    opacity: .5s;
+    height: 100%;
+    transition: .5s;
+}
+
+.port-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: linear-gradient(rgba(0,0,0,0.2),#12f7ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.5s;
+    padding: 0 2rem;
+}
+
+.port-box:hover .port-content{
+    opacity: 1;
+}
+
+.port-box:hover .port-image img{
+    transform: scale(1.1);
+}
+
+.port-content h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.port-content p{
+    font-size: .8rem;
+    margin: 5px 0 15px 0;
+}
+
+.port-content a{
+    background: #fff;
+    border: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--hover-color);
+    outline: 2px solid #fff;
+}
+
+.port-content i{
+
+}
+
+
+
 
 
 
