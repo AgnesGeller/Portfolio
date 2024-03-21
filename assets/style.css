@@ -592,9 +592,7 @@ img{
 
 .points.marked{
     animation: glow 0.04s linear forwards;
-    animation-delay: cals(var(--i)*0.05s);
-    animation: glow 0.04s linear forwards;
-    animation-delay: calc(var(--i))*0.05s;
+    animation-delay: calc(var(--i)*0.05s);
 }
 
 
