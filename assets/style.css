@@ -792,20 +792,6 @@ footer a i{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* keyframes ---------------------------*/
 @keyframes morph{
     0%, 100%{
@@ -888,11 +874,10 @@ footer a i{
         padding: 8px 15px;
     }
     :root{
-        :root{
-            --big-font: 2.2rem;
-            --normal-font: 1.8rem;
-            --neon-box-shadow: 0 0 .8rem #12f7ff;
-            --h2-font: 3rem;
+        --big-font: 2.2rem;
+        --normal-font: 1.8rem;
+        --neon-box-shadow: 0 0 .8rem #12f7ff;
+        --h2-font: 3rem;
     }
 
     .home-content{
@@ -909,7 +894,7 @@ footer a i{
     #menu-icon{
     display: block;
     transition: all .4s ease;
-    }
+    
 }
 
     #menu-icon.bx-x{
@@ -955,5 +940,20 @@ footer a i{
     .about{
        flex-direction: column-reverse; 
     } 
+
+   .skill-main{
+    grid-template-columns: 1fr;
+   } 
+
+   .fillter-buttons{
+    margin: 2.5rem 0;
+   }
 }
 
+
+@media(max-width:420px){
+    html{
+        font-size: 80%;
+    }
+    
+}
