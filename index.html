@@ -13,19 +13,19 @@
     <header>
         <div class="logo"><span>A</span>gnes</div>
         <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#services" style="--i:3;">Services</a></li>
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+            <li><a href="#contact" style="--i:6;">Contact</a></li>
         </ul>
         <div id="menu-icon" class="bx bx-menu"></div>
     </header>
 
     <!-- home section -------------------------->
     <section id="home" class="home">
-        <div class="home-content">
+        <div class="home-content scroll-scale">
             <h1>Hi! I am Agnes Geller</h1>
             <div class="change-text">
                 <h3>And I'm</h3>
@@ -65,7 +65,7 @@
             </div>
         </div>
 
-        <div class="home-image">
+        <div class="home-image scroll-scale">
             <div class="img-box">
                 <img src="./assets/img/man.png" alt="">
             </div>
@@ -139,7 +139,7 @@
 
     <!-- about section -------------------->
     <section id="about" class="about">
-        <div class="img-about">
+        <div class="img-about scroll-scale">
             <img src="./assets/img/about-me-pic2.png" alt="">
             <div class="info-about1">
                 <span>10+</span>
@@ -156,7 +156,7 @@
         </div>
       
 
-        <div class="about-content">
+        <div class="about-content scroll-scale">
             <span>Let me introduce myself</span>
             <h2>About me</h2>
             <h3>A story of good</h3>
@@ -172,12 +172,12 @@
 
     <!-- services section -------------------->
     <section id="services" class="services">
-        <div class="main-text">
+        <div class="main-text scroll-scale">
             <span>What will do for you</span>
             <h2>Our Services</h2>
         </div>
 
-    <div class="section-services">
+    <div class="section-services scroll-bottom">
         <div class="service-box">
             <i class="bx bxs-layer service-icon"></i>
             <h3>Web Design</h3>  
@@ -214,13 +214,13 @@
 
   <!-- skill section -------------------->
   <section id="skills" class="skills">
-    <div class="main-text">
+    <div class="main-text scroll-scale">
         <span>Technical and Professional</span>
         <h2>My skills</h2>
     </div>
 
     <div class="skill-main">
-        <div class="skill-left">
+        <div class="skill-left scroll-scale">
             <h3>Technical Skills</h3>
             <div class="skill-bar">
                 <div class="info">
@@ -262,7 +262,7 @@
                 </div>
             </div>
     </div>
-        <div class="skill-right">
+        <div class="skill-right scroll-scale">
             <h3>Professional Skills</h3>
             <div class="professional">
                 <div class="box">
@@ -298,24 +298,23 @@
                                 </div>
                 </div>
         </div>
-
   </section>
 
   <!-- skill section ------->
   <section id="portfolio" class="portfolio">
-    <div class="main-text">
+    <div class="main-text scroll-scale">
         <span>What I will do for you</span>
         <h2>Latest Projects</h2>
     </div>
     <div class="container">
-        <div class="fillter-buttons">
-            <button class="btn"data-filter= "all">All</button>
-            <button class="btn"data-filter= ".product">Product</button>
-            <button class="btn"data-filter= ".inter">Interacting</button>
-            <button class="btn"data-filter= ".web">Web App</button>
+        <div class="fillter-buttons scroll-scale">
+            <button class="button"data-filter= "all">All</button>
+            <button class="button"data-filter= ".product">Product</button>
+            <button class="button"data-filter= ".inter">Interacting</button>
+            <button class="button"data-filter= ".web">Web App</button>
         </div>
        
-        <div class="portfolio-gallery">
+        <div class="portfolio-gallery scroll-bottom">
             <div class="port-box mix product">
                 <div class="port-image">
                 <img src="./assets/img/1.jpg" alt="">
@@ -400,12 +399,12 @@
 
   <!-- Contact section ------->
 <section id="contact" class="contant">
-    <div class="main-text">
+    <div class="main-text scroll-scale">
         <span>ask me question</span>
         <h2>Contact Me</h2>
     </div>
 
-    <form action="#">
+    <form action="#" class="scroll-bottom">
         <input type="text" placeholder="Name"/>
         <input type="text" placeholder="Email Address"/>
         <input type="text" placeholder="Address"/>
@@ -413,7 +412,6 @@
         <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
         <div class="btn-box formBtn">
         <button type="submit" class="btn">Send Message</button>
-
         </div>
     </form>
 </section>
@@ -421,7 +419,7 @@
 
 <!-- footer website  -->
 <footer>
-    <p>Copyright &copy; 2024 by Agnes Geller || All Right Reservd.</p>
+    <p class="scroll-scale">Copyright &copy; 2024 by Agnes Geller || All Right Reservd.</p>
     <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
 </footer>
 
